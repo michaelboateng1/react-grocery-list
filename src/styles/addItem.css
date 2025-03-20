@@ -1,0 +1,32 @@
+form {
+  padding: 0.5em;
+  width: 100%;
+  display: flex;
+  align-items: flex-end;
+}
+
+form input {
+  padding: 0 1em;
+  flex-grow: 1;
+  width: 100%;
+  border: none;
+  border-bottom: 2px solid mediumblue;
+  outline: none;
+  font-size: 1.5rem;
+}
+
+form button {
+  min-width: 48px;
+  height: 48px;
+  border: 2px solid mediumblue;
+  border-radius: 10px 10px 10px 0;
+  font-size: 1.2rem;
+  padding: 0.5em 0;
+}
+
+form button:hover,
+form button:focus {
+  background-color: forestgreen;
+  color: #fff;
+  cursor: pointer;
+}

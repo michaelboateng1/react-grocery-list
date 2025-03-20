@@ -2,7 +2,7 @@ import React from "react";
 
 // css
 import "../styles/footer.css";
-import ListItems from "./ListItems";
+
 function Footer({ listCount }) {
   return (
     <footer>
