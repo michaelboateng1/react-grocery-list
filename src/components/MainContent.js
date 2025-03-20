@@ -1,5 +1,8 @@
 import React from "react";
 
+// css
+import "../styles/main.css";
+
 function MainContent() {
   return (
     <main>
