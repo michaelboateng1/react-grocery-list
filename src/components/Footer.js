@@ -2,10 +2,17 @@ import React from "react";
 
 // css
 import "../styles/footer.css";
-function Footer() {
+import ListItems from "./ListItems";
+function Footer({ listCount }) {
   return (
     <footer>
-      <p>&copy;copyright 2025. All rights reserved</p>
+      {listCount > 0 ? (
+        <p>
+          {listCount} {listCount > 1 ? "items" : "item"}
+        </p>
+      ) : (
+        <p>&copy;copyright 2025. All rights reserved</p>
+      )}
     </footer>
   );
 }
