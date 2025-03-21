@@ -4,11 +4,25 @@ li {
   justify-content: space-between;
   align-items: center;
   margin: 1em 0;
+  background-color: whitesmoke;
+  padding: 1em 0.5em;
+}
+
+li div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1em;
 }
 
 li input[type="checkbox"] {
   min-width: 48px;
   height: 48px;
+}
+
+li p {
+  width: 40ch;
+  word-wrap: break-word;
 }
 
 li button {

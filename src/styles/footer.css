@@ -5,4 +5,7 @@ footer {
   background-color: mediumblue;
   color: #fff;
   flex-grow: 0;
+  position: absolute;
+  bottom: 0;
+  left: 0;
 }
